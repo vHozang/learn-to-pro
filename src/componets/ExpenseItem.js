@@ -1,4 +1,13 @@
+import "./ExpenseItem.css";
 function ExpenseItem() {
-  return <h2>Expense Item!</h2>;
+  return (
+    <div className="expense-item">
+      <div>Date</div>
+      <div className="expense-item_desciption">
+        <h2>title</h2>
+        <div className="expense-item_price">amout</div>
+      </div>
+    </div>
+  );
 }
 export default ExpenseItem;
